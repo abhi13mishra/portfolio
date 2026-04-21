@@ -10,17 +10,21 @@ function Projects() {
         {projects.map((p, i) => (
           <motion.div key={i} className="card">
             <img src={p.image} alt={p.title} className="project-img" />
+            <div className="des">
+              <h3>{p.title}</h3>
+              <p>{p.desc}</p>
 
-            <h3>{p.title}</h3>
-            <p>{p.desc}</p>
+            </div>
+            <div className="buttonDiv">
+              <a href={p.github} target="_blank">
+                <button className="github">GitHub</button>
+              </a>
 
-            <a href={p.github} target="_blank">
-              <button className="primary">GitHub</button>
-            </a>
+              <a href={p.live} target="_blank">
+                <button className="live">Live</button>
+              </a>
+            </div>
 
-            <a href={p.live} target="_blank">
-              <button className="primary">Live</button>
-            </a>
           </motion.div>
         ))}
       </div>

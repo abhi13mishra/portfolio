@@ -21,7 +21,7 @@ function Navbar() {
         const el = document.getElementById(sec);
         if (!el) return;
 
-        const offset = el.offsetTop - 200; // 👈 important fix
+        const offset = el.offsetTop - 200; // important fix
         const height = el.offsetHeight;
 
         if (window.scrollY >= offset && window.scrollY < offset + height) {
@@ -37,7 +37,7 @@ function Navbar() {
   }, []);
   return (
     <nav className="nav">
-      <h2>Portfolio</h2>
+      <h2>Port<span className="green">folio</span></h2>
 
       {/* Hamburger */}
       <div className="menu-icon" onClick={() => setOpen(!open)}>
@@ -63,7 +63,7 @@ function Navbar() {
       </ul>
 
       {/* Resume (Desktop only) */}
-      <a href="/Abhishek-Mishra-Resume.pdf" target="_blank" className="resume-btn">
+      <a href="/public/Abhishek_Mishra_CV.pdf" className="resume-btn" download>
         <button>Resume</button>
       </a>
     </nav>

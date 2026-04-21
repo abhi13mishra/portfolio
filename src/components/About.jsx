@@ -11,9 +11,14 @@ function About() {
 
           <br /><br />
 
-          I focus on clean code, performance optimization, and creating seamless
-          user experiences. I enjoy solving complex problems and turning ideas
-          into real-world applications.
+          I build production-ready applications with clean architecture, maintainable
+          code, and seamless frontend-backend integration. My approach focuses on solving
+          real-world problems while ensuring optimal user experience and application efficiency.
+
+          <br /><br />
+
+          Continuously learning and improving, I aim to contribute to impactful
+          products and grow as a developer in a challenging environment.
         </p>
       </div>
     </section>

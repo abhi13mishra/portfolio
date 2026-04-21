@@ -18,11 +18,11 @@ function Hero() {
 
         <div className="btns">
           <a href="#contact">
-            <button className="primary">Contact</button>
+            <button className="primary">Get In Touch</button>
           </a>
 
-          <a href="/Abhishek-Mishra-Resume.pdf" target="_blank">
-            <button className="secondary">Resume</button>
+          <a href="/public/Abhishek_Mishra_CV.pdf" download>
+            <button className="secondary">Download Resume</button>
           </a>
         </div>
       </motion.div>
