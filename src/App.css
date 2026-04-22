@@ -121,14 +121,15 @@ section {
 
 /* ===== BUTTON ===== */
 .primary {
-  padding: 12px 25px;
+  padding: 10px 20px;
   width: 200px;
   border-radius: 8px;
   border: none;
   background: linear-gradient(135deg, #6c63ff, #00c9a7);
   color: white;
   cursor: pointer;
-  margin: 5px;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .github {

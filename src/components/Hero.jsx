@@ -17,8 +17,8 @@ function Hero() {
         </p>
 
         <div className="btns">
-          <a href="#contact">
-            <button className="primary">Get In Touch</button>
+          <a href="#contact" className="primary">
+            Get In Touch
           </a>
 
           <a href="/Abhishek_Mishra_Resume.pdf" download className="secondary">
