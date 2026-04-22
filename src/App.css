@@ -121,7 +121,7 @@ section {
 
 /* ===== BUTTON ===== */
 .primary {
-  padding: 10px 20px;
+  padding: 17px 55px;
   width: 200px;
   border-radius: 8px;
   border: none;
@@ -156,7 +156,7 @@ section {
 }
 
 .secondary {
-  padding: 10px 20px;
+  padding: 15px 30px;
   width: 200px;
   border-radius: 8px;
   border: 2px solid var(--primary);
@@ -221,6 +221,12 @@ section {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--secondary);
+}
+
+.btns {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px
 }
 
 /* ===== ABOUT ===== */
