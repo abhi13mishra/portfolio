@@ -438,6 +438,10 @@ section {
     width: 220px;
     height: 220px;
   }
+
+  section {
+    padding: 40px 25px;
+  }
 }
 
 
@@ -458,7 +462,7 @@ section {
   }
 
   section {
-    padding: 50px 20px;
+    padding: 25px 15px;
   }
 
   .menu-icon {
@@ -500,5 +504,9 @@ section {
   .mobile-resume {
     display: block;
     margin-top: 10px;
+  }
+
+  .heading {
+    margin-bottom: 20px;
   }
 }
