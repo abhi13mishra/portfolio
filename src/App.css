@@ -121,7 +121,13 @@ section {
 
 /* ===== BUTTON ===== */
 .primary {
-  padding: 17px 55px;
+  width: 200px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 15px 25px;
   width: 200px;
   border-radius: 8px;
   border: none;
@@ -156,7 +162,13 @@ section {
 }
 
 .secondary {
-  padding: 15px 30px;
+  width: 200px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 15px 25px;
   width: 200px;
   border-radius: 8px;
   border: 2px solid var(--primary);
