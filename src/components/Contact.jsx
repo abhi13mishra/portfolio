@@ -10,32 +10,41 @@ function Contact() {
         <div className="contact-card">
           <FaEnvelope className="contact-icon" />
           <div>
-            <p className="label">Email</p>
-            <p className="value">yourrealemail@gmail.com</p>
+            <p className="value">abhishek.mishra.fsd@gmail.com</p>
           </div>
         </div>
 
         <div className="contact-card">
           <FaPhone className="contact-icon" />
           <div>
-            <p className="label">Phone</p>
-            <p className="value">9876543210</p>
+            <p className="value">9996160281</p>
           </div>
         </div>
 
         <div className="contact-card">
           <FaLinkedin className="contact-icon" />
           <div>
-            <p className="label">LinkedIn</p>
-            <a href="#" className="value">Profile</a>
+            <a
+              href="https://www.linkedin.com/in/abhishek-mishra-987a00259/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="value"
+            >
+              Profile
+            </a>
           </div>
         </div>
 
         <div className="contact-card">
           <FaGithub className="contact-icon" />
           <div>
-            <p className="label">GitHub</p>
-            <a href="https://github.com/abhi13mishra" className="value">Repository</a>
+            <a href="https://github.com/abhi13mishra"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="value"
+            >
+              Repository
+            </a>
           </div>
         </div>
 
