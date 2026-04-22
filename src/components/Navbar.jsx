@@ -63,8 +63,13 @@ function Navbar() {
       </ul>
 
       {/* Resume (Desktop only) */}
-      <a href="/public/Abhishek_Mishra_CV.pdf" className="resume-btn" download>
-        <button>Resume</button>
+      <a
+        href="/Abhishek_Mishra_Resume.pdf"
+        className="resume-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Resume
       </a>
     </nav>
   );

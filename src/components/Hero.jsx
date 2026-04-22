@@ -21,8 +21,8 @@ function Hero() {
             <button className="primary">Get In Touch</button>
           </a>
 
-          <a href="/public/Abhishek_Mishra_CV.pdf" download>
-            <button className="secondary">Download Resume</button>
+          <a href="/Abhishek_Mishra_Resume.pdf" download className="secondary">
+            Download Resume
           </a>
         </div>
       </motion.div>
