@@ -71,13 +71,7 @@ section {
   margin: 0 12px;
 }
 
-.nav button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-}
+
 
 .green {
   color: #0ca8a7;
@@ -106,6 +100,7 @@ section {
   border: 2px solid #0ca8a7;
   background: #0ca8a7;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .resume-btn:hover {
@@ -161,6 +156,7 @@ section {
   color: white;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .secondary:hover {
@@ -390,6 +386,7 @@ section {
   }
 
   .resume-btn {
+    text-decoration: none;
     display: none;
   }
 
